@@ -103,7 +103,7 @@ export RPC_ENDPOINTS='{
 ./executor
 ```
 ### Once you see this, you're now successfully running T3rn V2 executor node.
-![Successful Executor](image_url)
+![Successful Executor](https://github.com/Tony-smile/T3rn-V2-set-up/blob/main/20250318_183311.jpg)
 
 ### Exit screen mode
 Ctr + A then D

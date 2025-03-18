@@ -5,14 +5,12 @@ Follow this instructions, step by step and you're good 👍
 
 ## 1️⃣ Remove Existing Node (If Any)  
 Before installing or setting up a new instance of the t3rn node, remove any existing installation using the following command:  
-
 ```sh
 rm -rf t3rn
 ```
 ## 2️⃣ Create a New Directory and Navigate Into It
 
 Run the following commands to create a new directory for the t3rn node and move into it:
-
 ```sh
 mkdir t3rn
 cd t3rn
@@ -20,7 +18,6 @@ cd t3rn
 ## 3️⃣ Download the Latest t3rn Release
 
 Fetch and download the latest t3rn executor release using the following command:
-
 ```sh
 curl -s https://api.github.com/repos/t3rn/executor-release/releases/latest | \
 grep -Po '"tag_name": "\K.*?(?=")' | \
@@ -54,7 +51,6 @@ screen -S t3rn
 ```
 
 ## 8️⃣ Set the Environment Variables
-
 ```sh
 export ENVIRONMENT=testnet
 ```
@@ -106,11 +102,29 @@ export RPC_ENDPOINTS='{
 ```sh
 ./executor
 ```
+### Once you see this, you're now successfully running T3rn V2 executor node.
+![Successful Executor](image_url)
 
-```sh
+### Exit screen mode
+Ctr + A then D
 
-```
+### Reattache screen incase of next time you want to assess your node
+Screen -r t3rn
 
-```sh
+## 🔟 Additional things to do
+You need Sepolia faucet across 
+Base, Arbitrum, Optimism, l2rn, blast and unichain in order to continue executing well.
 
-```
+## 🔥Most importantly you need gas fee on B2n to even START EXECUTING.
+
+## Claim BRN Faucet  
+
+Claim your BRN faucet here:  
+🔗 [b2n.hub.caldera.xyz](https://b2n.hub.caldera.xyz)  
+
+## Check Your BRN Earnings  
+
+Connect your wallet here and see how much $BRN you have earned:  
+🔗 [unlock3d.t3rn.io](https://unlock3d.t3rn.io/)
+
+

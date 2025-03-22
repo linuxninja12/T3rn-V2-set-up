@@ -23,6 +23,13 @@ curl -s https://api.github.com/repos/t3rn/executor-release/releases/latest | \
 grep -Po '"tag_name": "\K.*?(?=")' | \
 xargs -I {} wget https://github.com/t3rn/executor-release/releases/download/{}/executor-linux-{}.tar.gz
 ```
+## OR Specify the version by edititng this
+
+Replace the version you want to install
+```sh
+VERSION="v0."
+wget "https://github.com/t3rn/executor-release/releases/download/${VERSION}/executor-linux-${VERSION}.tar.gz"
+```
 ## 4️⃣ Extract the Downloaded Archive
 
 Once the download is complete, extract the files using:

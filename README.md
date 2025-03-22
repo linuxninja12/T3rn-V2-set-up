@@ -80,7 +80,9 @@ export EXECUTOR_MAX_L3_GAS_PRICE=1000
 ```sh
 export ENABLED_NETWORKS='arbitrum-sepolia,base-sepolia,optimism-sepolia,unichain-sepolia,l2rn'
 ```
-
+```sh
+export NETWORKS_DISABLED='blast-sepolia'
+```
 ```sh
 export PRIVATE_KEY_LOCAL=your_private_key
 ```

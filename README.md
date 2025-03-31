@@ -102,7 +102,7 @@ export RPC_ENDPOINTS='{
     "bast": ["https://base-sepolia-rpc.publicnode.com", "https://base-sepolia.drpc.org"],
     "opst": ["https://sepolia.optimism.io", "https://optimism-sepolia.drpc.org"],
     "unit": ["https://unichain-sepolia.drpc.org", "https://sepolia.unichain.org"],
-    "bssp": ["https://base-sepolia-rpc.publicnode.com/", "https://base-sepolia.drpc.org"]
+    "blst": ["https://sepolia.blast.io", "https://blast-sepolia.drpc.org"]
 }'
 ```
 ## 9️⃣ Start the Execution node
